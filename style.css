@@ -1,0 +1,94 @@
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: cadetblue;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #0a3a4c;
+  padding: 10px 24px;
+  border-radius: 20px;
+  width: 490px;
+}
+
+h1 {
+  color: #ffeba7;
+  text-align: center;
+  margin-bottom: 0.5em;
+  font-family: sans-serif;
+}
+.container .box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.box select {
+  width: 80%;
+  height: 40px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: rgb(234, 141, 107);
+  outline: none;
+  color: black;
+  margin: 0.5em auto;
+  padding: 0 0.75rem;
+  border-radius: 10px;
+  border: none;
+}
+
+#result {
+  background-color: rgb(120, 162, 164);
+  color: #102770;
+  font-size: 1.25rem;
+  border-radius: 30px;
+  margin: 1rem;
+}
+
+.center {
+  text-align: center;
+}
+
+input {
+  width: 76%;
+  height: 40px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: rgb(238, 104, 56);
+  outline: none;
+  color: black;
+  margin: 0.5em auto;
+  padding: 0 0.75rem;
+  border-radius: 10px;
+  border: none;
+}
+
+input::placeholder {
+  color: #0a3a4c;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 50%;
+  height: 40px;
+  background-color: #ffeba7;
+  color: #102770;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 0.5em 0;
+}
